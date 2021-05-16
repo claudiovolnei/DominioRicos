@@ -1,0 +1,8 @@
+#Arquivos não necessários no git
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
+*.vscode
