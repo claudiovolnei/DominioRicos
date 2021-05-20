@@ -2,7 +2,7 @@ using PaymentContext.Shared.ValueObjects;
 
 namespace PaymentContext.Domain.ValuesObjects
 {       
-    public class Address : ValueObjects
+    public class Address : ValueObject
     {
         public string Street { get; private set; }
         public string Number { get; private set; }
