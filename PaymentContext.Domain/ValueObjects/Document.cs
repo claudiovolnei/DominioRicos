@@ -15,7 +15,6 @@ namespace PaymentContext.Domain.ValuesObjects
                 .Requires()
                 .IsTrue(Validate(), "Document.Number", "Documento inválido")
             );      
-
         }
         public string Number { get; private set; }    
         public EDocumentType Type { get; set; }  
